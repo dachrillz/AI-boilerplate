@@ -41,7 +41,7 @@ def screen_record_efficient(top, left, width, height):
 
 if __name__ == '__main__':
     while(True):
-        print(screen_record_efficient(110,710,110,30)) #captures the score
+        #print(screen_record_efficient(110,710,110,30)) #captures the score
 
         #print(screen_record_efficient(110,540,80,30)) #capture time
-        #print(screen_record_efficient(50,60,800,600)) #captures entire screen
+        print(screen_record_efficient(50,60,800,600)) #captures entire screen
